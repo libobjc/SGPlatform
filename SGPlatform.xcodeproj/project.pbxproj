@@ -512,6 +512,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = SGPlatform/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.single.SGPlatform;
@@ -534,6 +535,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = SGPlatform/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.single.SGPlatform;
@@ -558,6 +560,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.single.SGPlatform;
 				PRODUCT_NAME = SGPlatform;
 				SKIP_INSTALL = YES;
@@ -579,6 +582,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.single.SGPlatform;
 				PRODUCT_NAME = SGPlatform;
 				SKIP_INSTALL = YES;
@@ -604,6 +608,7 @@
 				PRODUCT_NAME = SGPlatform;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -626,6 +631,7 @@
 				PRODUCT_NAME = SGPlatform;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
