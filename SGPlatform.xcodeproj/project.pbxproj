@@ -81,8 +81,16 @@
 			isa = PBXGroup;
 			children = (
 				9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */,
+				9CEFA6601E710E1300835CAB /* SGPLFObject */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		9CEFA6601E710E1300835CAB /* SGPLFObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SGPLFObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
