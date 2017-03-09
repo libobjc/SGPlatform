@@ -6,12 +6,10 @@
 //  Copyright © 2017年 single. All rights reserved.
 //
 
-#import "SGPLFTargets.h"
+#import "SGPLFObject.h"
 
 #if SGPLATFORM_TARGET_OS_MAC
 
-
-#import <Cocoa/Cocoa.h>
 
 @interface SGPLFDisplayLink : NSObject
 
@@ -27,8 +25,6 @@
 
 #elif SGPLATFORM_TARGET_OS_IPHONE_OR_TV
 
-
-#import <UIKit/UIKit.h>
 
 typedef CADisplayLink SGPLFDisplayLink;
 

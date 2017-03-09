@@ -46,6 +46,21 @@
 		9CEFA68A1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
 		9CEFA68B1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
 		9CEFA68C1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
+		9CEFA6BD1E71117500835CAB /* SGPLFGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6B81E71117500835CAB /* SGPLFGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6BE1E71117500835CAB /* SGPLFGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6B81E71117500835CAB /* SGPLFGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6BF1E71117500835CAB /* SGPLFGLContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6B81E71117500835CAB /* SGPLFGLContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6C01E71117500835CAB /* SGPLFGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6B91E71117500835CAB /* SGPLFGLContext.m */; };
+		9CEFA6C11E71117500835CAB /* SGPLFGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6B91E71117500835CAB /* SGPLFGLContext.m */; };
+		9CEFA6C21E71117500835CAB /* SGPLFGLContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6B91E71117500835CAB /* SGPLFGLContext.m */; };
+		9CEFA6C31E71117500835CAB /* SGPLFGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BA1E71117500835CAB /* SGPLFGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6C41E71117500835CAB /* SGPLFGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BA1E71117500835CAB /* SGPLFGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6C51E71117500835CAB /* SGPLFGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BA1E71117500835CAB /* SGPLFGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6C61E71117500835CAB /* SGPLFGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6BB1E71117500835CAB /* SGPLFGLView.m */; };
+		9CEFA6C71E71117500835CAB /* SGPLFGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6BB1E71117500835CAB /* SGPLFGLView.m */; };
+		9CEFA6C81E71117500835CAB /* SGPLFGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6BB1E71117500835CAB /* SGPLFGLView.m */; };
+		9CEFA6C91E71117500835CAB /* SGPLFOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BC1E71117500835CAB /* SGPLFOpenGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6CA1E71117500835CAB /* SGPLFOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BC1E71117500835CAB /* SGPLFOpenGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6CB1E71117500835CAB /* SGPLFOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6BC1E71117500835CAB /* SGPLFOpenGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +81,11 @@
 		9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFObject.h; sourceTree = "<group>"; };
 		9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFScreen.h; sourceTree = "<group>"; };
 		9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFScreen.m; sourceTree = "<group>"; };
+		9CEFA6B81E71117500835CAB /* SGPLFGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFGLContext.h; sourceTree = "<group>"; };
+		9CEFA6B91E71117500835CAB /* SGPLFGLContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFGLContext.m; sourceTree = "<group>"; };
+		9CEFA6BA1E71117500835CAB /* SGPLFGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFGLView.h; sourceTree = "<group>"; };
+		9CEFA6BB1E71117500835CAB /* SGPLFGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFGLView.m; sourceTree = "<group>"; };
+		9CEFA6BC1E71117500835CAB /* SGPLFOpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFOpenGL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +134,9 @@
 		9CEFA6381E7106B500835CAB /* SGPlatform */ = {
 			isa = PBXGroup;
 			children = (
-				9CEFA6571E710C3D00835CAB /* Core */,
 				9CEFA6391E7106B500835CAB /* SGPlatform.h */,
 				9CEFA63A1E7106B500835CAB /* Info.plist */,
+				9CEFA6571E710C3D00835CAB /* Core */,
 			);
 			path = SGPlatform;
 			sourceTree = "<group>";
@@ -126,6 +146,7 @@
 			children = (
 				9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */,
 				9CEFA6601E710E1300835CAB /* SGPLFObject */,
+				9CEFA6B71E71117500835CAB /* SGPLFOpenGL */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -148,6 +169,18 @@
 			path = SGPLFObject;
 			sourceTree = "<group>";
 		};
+		9CEFA6B71E71117500835CAB /* SGPLFOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				9CEFA6BC1E71117500835CAB /* SGPLFOpenGL.h */,
+				9CEFA6BA1E71117500835CAB /* SGPLFGLView.h */,
+				9CEFA6BB1E71117500835CAB /* SGPLFGLView.m */,
+				9CEFA6B81E71117500835CAB /* SGPLFGLContext.h */,
+				9CEFA6B91E71117500835CAB /* SGPLFGLContext.m */,
+			);
+			path = SGPLFOpenGL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -155,6 +188,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6C91E71117500835CAB /* SGPLFOpenGL.h in Headers */,
+				9CEFA6C31E71117500835CAB /* SGPLFGLView.h in Headers */,
+				9CEFA6BD1E71117500835CAB /* SGPLFGLContext.h in Headers */,
 				9CEFA65D1E710CC100835CAB /* SGPLFTargets.h in Headers */,
 				9CEFA6781E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
 				9CEFA6721E710E5C00835CAB /* SGPLFColor.h in Headers */,
@@ -170,6 +206,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6CA1E71117500835CAB /* SGPLFOpenGL.h in Headers */,
+				9CEFA6C41E71117500835CAB /* SGPLFGLView.h in Headers */,
+				9CEFA6BE1E71117500835CAB /* SGPLFGLContext.h in Headers */,
 				9CEFA65E1E710CC100835CAB /* SGPLFTargets.h in Headers */,
 				9CEFA6791E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
 				9CEFA6731E710E5C00835CAB /* SGPLFColor.h in Headers */,
@@ -185,6 +224,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6CB1E71117500835CAB /* SGPLFOpenGL.h in Headers */,
+				9CEFA6C51E71117500835CAB /* SGPLFGLView.h in Headers */,
+				9CEFA6BF1E71117500835CAB /* SGPLFGLContext.h in Headers */,
 				9CEFA65F1E710CC100835CAB /* SGPLFTargets.h in Headers */,
 				9CEFA67A1E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
 				9CEFA6741E710E5C00835CAB /* SGPLFColor.h in Headers */,
@@ -324,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA6751E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA6C61E71117500835CAB /* SGPLFGLView.m in Sources */,
 				9CEFA68A1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
 				9CEFA6661E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6C01E71117500835CAB /* SGPLFGLContext.m in Sources */,
 				9CEFA6811E710E5C00835CAB /* SGPLFImage.m in Sources */,
 				9CEFA67B1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);
@@ -336,8 +380,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA6761E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA6C71E71117500835CAB /* SGPLFGLView.m in Sources */,
 				9CEFA68B1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
 				9CEFA6671E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6C11E71117500835CAB /* SGPLFGLContext.m in Sources */,
 				9CEFA6821E710E5C00835CAB /* SGPLFImage.m in Sources */,
 				9CEFA67C1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);
@@ -348,8 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA6771E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA6C81E71117500835CAB /* SGPLFGLView.m in Sources */,
 				9CEFA68C1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
 				9CEFA6681E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6C21E71117500835CAB /* SGPLFGLContext.m in Sources */,
 				9CEFA6831E710E5C00835CAB /* SGPLFImage.m in Sources */,
 				9CEFA67D1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);

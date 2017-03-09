@@ -6,22 +6,19 @@
 //  Copyright © 2017年 single. All rights reserved.
 //
 
-#import "SGPLFTargets.h"
+#import "SGPLFObject.h"
+
 #import "SGPLFImage.h"
 #import "SGPLFColor.h"
 
 #if SGPLATFORM_TARGET_OS_MAC
 
 
-#import <Cocoa/Cocoa.h>
-
 typedef NSView SGPLFView;
 
 
 #elif SGPLATFORM_TARGET_OS_IPHONE_OR_TV
 
-
-#import <UIKit/UIKit.h>
 
 typedef UIView SGPLFView;
 
