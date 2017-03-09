@@ -10,9 +10,42 @@
 		9CEFA63B1E7106B500835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CEFA6451E71071800835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CEFA6501E71073700835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CEFA65D1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; };
-		9CEFA65E1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; };
-		9CEFA65F1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; };
+		9CEFA65D1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA65E1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA65F1E710CC100835CAB /* SGPLFTargets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6631E710E3300835CAB /* SGPLFView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6611E710E3300835CAB /* SGPLFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6641E710E3300835CAB /* SGPLFView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6611E710E3300835CAB /* SGPLFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6651E710E3300835CAB /* SGPLFView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6611E710E3300835CAB /* SGPLFView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6661E710E3300835CAB /* SGPLFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6621E710E3300835CAB /* SGPLFView.m */; };
+		9CEFA6671E710E3300835CAB /* SGPLFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6621E710E3300835CAB /* SGPLFView.m */; };
+		9CEFA6681E710E3300835CAB /* SGPLFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6621E710E3300835CAB /* SGPLFView.m */; };
+		9CEFA6721E710E5C00835CAB /* SGPLFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6691E710E5C00835CAB /* SGPLFColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6731E710E5C00835CAB /* SGPLFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6691E710E5C00835CAB /* SGPLFColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6741E710E5C00835CAB /* SGPLFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6691E710E5C00835CAB /* SGPLFColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6751E710E5C00835CAB /* SGPLFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66A1E710E5C00835CAB /* SGPLFColor.m */; };
+		9CEFA6761E710E5C00835CAB /* SGPLFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66A1E710E5C00835CAB /* SGPLFColor.m */; };
+		9CEFA6771E710E5C00835CAB /* SGPLFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66A1E710E5C00835CAB /* SGPLFColor.m */; };
+		9CEFA6781E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66B1E710E5C00835CAB /* SGPLFDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6791E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66B1E710E5C00835CAB /* SGPLFDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA67A1E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66B1E710E5C00835CAB /* SGPLFDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA67B1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66C1E710E5C00835CAB /* SGPLFDisplayLink.m */; };
+		9CEFA67C1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66C1E710E5C00835CAB /* SGPLFDisplayLink.m */; };
+		9CEFA67D1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66C1E710E5C00835CAB /* SGPLFDisplayLink.m */; };
+		9CEFA67E1E710E5C00835CAB /* SGPLFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66D1E710E5C00835CAB /* SGPLFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA67F1E710E5C00835CAB /* SGPLFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66D1E710E5C00835CAB /* SGPLFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6801E710E5C00835CAB /* SGPLFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66D1E710E5C00835CAB /* SGPLFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6811E710E5C00835CAB /* SGPLFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66E1E710E5C00835CAB /* SGPLFImage.m */; };
+		9CEFA6821E710E5C00835CAB /* SGPLFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66E1E710E5C00835CAB /* SGPLFImage.m */; };
+		9CEFA6831E710E5C00835CAB /* SGPLFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA66E1E710E5C00835CAB /* SGPLFImage.m */; };
+		9CEFA6841E710E5C00835CAB /* SGPLFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6851E710E5C00835CAB /* SGPLFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6861E710E5C00835CAB /* SGPLFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6871E710E5C00835CAB /* SGPLFScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6881E710E5C00835CAB /* SGPLFScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA6891E710E5C00835CAB /* SGPLFScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEFA68A1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
+		9CEFA68B1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
+		9CEFA68C1E710E5C00835CAB /* SGPLFScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +55,17 @@
 		9CEFA64A1E71071800835CAB /* SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEFA6551E71073700835CAB /* SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEFA65C1E710CC100835CAB /* SGPLFTargets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFTargets.h; sourceTree = "<group>"; };
+		9CEFA6611E710E3300835CAB /* SGPLFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFView.h; sourceTree = "<group>"; };
+		9CEFA6621E710E3300835CAB /* SGPLFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFView.m; sourceTree = "<group>"; };
+		9CEFA6691E710E5C00835CAB /* SGPLFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFColor.h; sourceTree = "<group>"; };
+		9CEFA66A1E710E5C00835CAB /* SGPLFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFColor.m; sourceTree = "<group>"; };
+		9CEFA66B1E710E5C00835CAB /* SGPLFDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFDisplayLink.h; sourceTree = "<group>"; };
+		9CEFA66C1E710E5C00835CAB /* SGPLFDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFDisplayLink.m; sourceTree = "<group>"; };
+		9CEFA66D1E710E5C00835CAB /* SGPLFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFImage.h; sourceTree = "<group>"; };
+		9CEFA66E1E710E5C00835CAB /* SGPLFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFImage.m; sourceTree = "<group>"; };
+		9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFObject.h; sourceTree = "<group>"; };
+		9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFScreen.h; sourceTree = "<group>"; };
+		9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +133,17 @@
 		9CEFA6601E710E1300835CAB /* SGPLFObject */ = {
 			isa = PBXGroup;
 			children = (
+				9CEFA66F1E710E5C00835CAB /* SGPLFObject.h */,
+				9CEFA6611E710E3300835CAB /* SGPLFView.h */,
+				9CEFA6621E710E3300835CAB /* SGPLFView.m */,
+				9CEFA6691E710E5C00835CAB /* SGPLFColor.h */,
+				9CEFA66A1E710E5C00835CAB /* SGPLFColor.m */,
+				9CEFA66B1E710E5C00835CAB /* SGPLFDisplayLink.h */,
+				9CEFA66C1E710E5C00835CAB /* SGPLFDisplayLink.m */,
+				9CEFA66D1E710E5C00835CAB /* SGPLFImage.h */,
+				9CEFA66E1E710E5C00835CAB /* SGPLFImage.m */,
+				9CEFA6701E710E5C00835CAB /* SGPLFScreen.h */,
+				9CEFA6711E710E5C00835CAB /* SGPLFScreen.m */,
 			);
 			path = SGPLFObject;
 			sourceTree = "<group>";
@@ -101,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA65D1E710CC100835CAB /* SGPLFTargets.h in Headers */,
+				9CEFA6781E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
+				9CEFA6721E710E5C00835CAB /* SGPLFColor.h in Headers */,
+				9CEFA6631E710E3300835CAB /* SGPLFView.h in Headers */,
+				9CEFA67E1E710E5C00835CAB /* SGPLFImage.h in Headers */,
+				9CEFA6841E710E5C00835CAB /* SGPLFObject.h in Headers */,
+				9CEFA6871E710E5C00835CAB /* SGPLFScreen.h in Headers */,
 				9CEFA63B1E7106B500835CAB /* SGPlatform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA65E1E710CC100835CAB /* SGPLFTargets.h in Headers */,
+				9CEFA6791E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
+				9CEFA6731E710E5C00835CAB /* SGPLFColor.h in Headers */,
+				9CEFA6641E710E3300835CAB /* SGPLFView.h in Headers */,
+				9CEFA67F1E710E5C00835CAB /* SGPLFImage.h in Headers */,
+				9CEFA6851E710E5C00835CAB /* SGPLFObject.h in Headers */,
+				9CEFA6881E710E5C00835CAB /* SGPLFScreen.h in Headers */,
 				9CEFA6451E71071800835CAB /* SGPlatform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFA65F1E710CC100835CAB /* SGPLFTargets.h in Headers */,
+				9CEFA67A1E710E5C00835CAB /* SGPLFDisplayLink.h in Headers */,
+				9CEFA6741E710E5C00835CAB /* SGPLFColor.h in Headers */,
+				9CEFA6651E710E3300835CAB /* SGPLFView.h in Headers */,
+				9CEFA6801E710E5C00835CAB /* SGPLFImage.h in Headers */,
+				9CEFA6861E710E5C00835CAB /* SGPLFObject.h in Headers */,
+				9CEFA6891E710E5C00835CAB /* SGPLFScreen.h in Headers */,
 				9CEFA6501E71073700835CAB /* SGPlatform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6751E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA68A1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
+				9CEFA6661E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6811E710E5C00835CAB /* SGPLFImage.m in Sources */,
+				9CEFA67B1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6761E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA68B1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
+				9CEFA6671E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6821E710E5C00835CAB /* SGPLFImage.m in Sources */,
+				9CEFA67C1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA6771E710E5C00835CAB /* SGPLFColor.m in Sources */,
+				9CEFA68C1E710E5C00835CAB /* SGPLFScreen.m in Sources */,
+				9CEFA6681E710E3300835CAB /* SGPLFView.m in Sources */,
+				9CEFA6831E710E5C00835CAB /* SGPLFImage.m in Sources */,
+				9CEFA67D1E710E5C00835CAB /* SGPLFDisplayLink.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
