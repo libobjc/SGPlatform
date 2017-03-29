@@ -17,6 +17,8 @@
 
 @property (nonatomic, getter=isPaused) BOOL paused;
 
+@property (nonatomic, assign) NSInteger preferredFramesPerSecond;
+
 @end
 
 
