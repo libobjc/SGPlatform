@@ -60,7 +60,7 @@
     if (self->_displayLink) {
         return CVDisplayLinkIsRunning(self->_displayLink);
     }
-    return NO;
+    return YES;
 }
 
 - (void)addToRunLoop:(NSRunLoop *)runloop forMode:(NSRunLoopMode)mode
