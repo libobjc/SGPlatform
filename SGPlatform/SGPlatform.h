@@ -31,3 +31,4 @@ FOUNDATION_EXPORT const unsigned char SGPlatformVersionString[];
 
 #import <SGPlatform/SGPLFGLView.h>
 #import <SGPlatform/SGPLFGLContext.h>
+#import <SGPlatform/SGPLFGLViewController.h>

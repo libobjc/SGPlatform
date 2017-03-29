@@ -61,6 +61,12 @@
 		9CEFA63B1E7106B500835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CEFA6451E71071800835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9CEFA6501E71073700835CAB /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFA6391E7106B500835CAB /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF556091E8B4671006DD339 /* SGPLFGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF556071E8B4671006DD339 /* SGPLFGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF5560A1E8B4671006DD339 /* SGPLFGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF556071E8B4671006DD339 /* SGPLFGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF5560B1E8B4671006DD339 /* SGPLFGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF556071E8B4671006DD339 /* SGPLFGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF5560C1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF556081E8B4671006DD339 /* SGPLFGLViewController.m */; };
+		9CF5560D1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF556081E8B4671006DD339 /* SGPLFGLViewController.m */; };
+		9CF5560E1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF556081E8B4671006DD339 /* SGPLFGLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +92,8 @@
 		9CEFA63A1E7106B500835CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CEFA64A1E71071800835CAB /* SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEFA6551E71073700835CAB /* SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF556071E8B4671006DD339 /* SGPLFGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPLFGLViewController.h; sourceTree = "<group>"; };
+		9CF556081E8B4671006DD339 /* SGPLFGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPLFGLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +155,10 @@
 				9C478EBB1E712AA200AD4289 /* SGPLFOpenGL.h */,
 				9C478EB91E712AA200AD4289 /* SGPLFGLView.h */,
 				9C478EBA1E712AA200AD4289 /* SGPLFGLView.m */,
-				9C478EB71E712AA200AD4289 /* SGPLFGLContext.h */,
 				9C478EB81E712AA200AD4289 /* SGPLFGLContext.m */,
+				9C478EB71E712AA200AD4289 /* SGPLFGLContext.h */,
+				9CF556071E8B4671006DD339 /* SGPLFGLViewController.h */,
+				9CF556081E8B4671006DD339 /* SGPLFGLViewController.m */,
 			);
 			path = SGPLFOpenGL;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF556091E8B4671006DD339 /* SGPLFGLViewController.h in Headers */,
 				9C478EED1E712AA200AD4289 /* SGPLFTargets.h in Headers */,
 				9C478EC91E712AA200AD4289 /* SGPLFImage.h in Headers */,
 				9C478EEA1E712AA200AD4289 /* SGPLFOpenGL.h in Headers */,
@@ -206,6 +217,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF5560A1E8B4671006DD339 /* SGPLFGLViewController.h in Headers */,
 				9C478EEE1E712AA200AD4289 /* SGPLFTargets.h in Headers */,
 				9C478ECA1E712AA200AD4289 /* SGPLFImage.h in Headers */,
 				9C478EEB1E712AA200AD4289 /* SGPLFOpenGL.h in Headers */,
@@ -224,6 +236,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF5560B1E8B4671006DD339 /* SGPLFGLViewController.h in Headers */,
 				9C478EEF1E712AA200AD4289 /* SGPLFTargets.h in Headers */,
 				9C478ECB1E712AA200AD4289 /* SGPLFImage.h in Headers */,
 				9C478EEC1E712AA200AD4289 /* SGPLFOpenGL.h in Headers */,
@@ -364,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF5560C1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */,
 				9C478EDB1E712AA200AD4289 /* SGPLFView.m in Sources */,
 				9C478EE71E712AA200AD4289 /* SGPLFGLView.m in Sources */,
 				9C478ED51E712AA200AD4289 /* SGPLFScreen.m in Sources */,
@@ -378,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF5560D1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */,
 				9C478EDC1E712AA200AD4289 /* SGPLFView.m in Sources */,
 				9C478EE81E712AA200AD4289 /* SGPLFGLView.m in Sources */,
 				9C478ED61E712AA200AD4289 /* SGPLFScreen.m in Sources */,
@@ -392,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF5560E1E8B4671006DD339 /* SGPLFGLViewController.m in Sources */,
 				9C478EDD1E712AA200AD4289 /* SGPLFView.m in Sources */,
 				9C478EE91E712AA200AD4289 /* SGPLFGLView.m in Sources */,
 				9C478ED71E712AA200AD4289 /* SGPLFScreen.m in Sources */,
