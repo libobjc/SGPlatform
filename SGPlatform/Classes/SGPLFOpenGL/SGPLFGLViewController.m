@@ -47,7 +47,10 @@
 
 - (BOOL)isPaused
 {
-    return self.displayLink.paused;
+    if (self.displayLink) {
+        return self.displayLink.paused;
+    }
+    return YES;
 }
 
 - (void)setPaused:(BOOL)paused
