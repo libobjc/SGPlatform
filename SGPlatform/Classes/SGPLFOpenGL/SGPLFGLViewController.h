@@ -15,6 +15,8 @@
 
 @interface SGPLFGLViewController : NSViewController <SGPLFGLViewDelegate>
 
+@property (nonatomic, getter=isPaused) BOOL paused;
+
 @end
 
 

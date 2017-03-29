@@ -34,7 +34,6 @@
 {
     if (self = [super init]) {
         self->_displayLink = NULL;
-        self->_paused = YES;
         self.target = target;
         self.selector = selector;
         CVDisplayLinkCreateWithActiveCGDisplays(&self->_displayLink);
@@ -47,16 +46,21 @@
 
 - (void)setPaused:(BOOL)paused
 {
-    if (_paused != paused) {
-        _paused = paused;
-        if (self->_displayLink) {
-            if (_paused) {
-                CVDisplayLinkStop(self->_displayLink);
-            } else {
-                CVDisplayLinkStart(self->_displayLink);
-            }
+    if (self->_displayLink) {
+        if (paused) {
+            CVDisplayLinkStop(self->_displayLink);
+        } else {
+            CVDisplayLinkStart(self->_displayLink);
         }
     }
+}
+
+- (BOOL)paused
+{
+    if (self->_displayLink) {
+        return CVDisplayLinkIsRunning(self->_displayLink);
+    }
+    return NO;
 }
 
 - (void)addToRunLoop:(NSRunLoop *)runloop forMode:(NSRunLoopMode)mode

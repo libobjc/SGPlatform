@@ -45,6 +45,16 @@
     
 }
 
+- (BOOL)isPaused
+{
+    return self.displayLink.paused;
+}
+
+- (void)setPaused:(BOOL)paused
+{
+    self.displayLink.paused = paused;
+}
+
 - (void)dealloc
 {
     [self.displayLink invalidate];
