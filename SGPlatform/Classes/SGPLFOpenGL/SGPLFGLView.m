@@ -10,6 +10,14 @@
 #import "SGPLFView.h"
 #import "SGPLFScreen.h"
 
+
+void SGPLFGLViewPrepareOpenGL(SGPLFGLView * view)
+{
+    SGPLFGLContext * context = SGPLFGLViewGetContext(view);
+    SGPLGLContextSetCurrentContext(context);
+}
+
+
 #if SGPLATFORM_TARGET_OS_MAC
 
 
@@ -23,11 +31,9 @@
 
 void SGPLFGLViewDisplay(SGPLFGLView * view)
 {
-    SGPLFGLViewPrepareOpenGL(view);
     if ([view.drawDelegate respondsToSelector:@selector(glkView:drawInRect:)]) {
         [view.drawDelegate glkView:view drawInRect:view.bounds];
     }
-    SGPLFGLViewFlushBuffer(view);
 }
 
 void SGPLFGLViewSetDrawDelegate(SGPLFGLView * view, id <SGPLFGLViewDelegate> drawDelegate)
@@ -53,12 +59,6 @@ void SGPLFGLViewBindFrameBuffer(SGPLFGLView * view)
 SGPLFImage * SGPLFGLViewGetCurrentSnapshot(SGPLFGLView * view)
 {
     return SGPLFViewGetCurrentSnapshot(view);
-}
-
-void SGPLFGLViewPrepareOpenGL(SGPLFGLView * view)
-{
-    SGPLFGLContext * context = SGPLFGLViewGetContext(view);
-    SGPLGLContextSetCurrentContext(context);
 }
 
 void SGPLFGLViewFlushBuffer(SGPLFGLView * view)
@@ -102,20 +102,11 @@ SGPLFImage * SGPLFGLViewGetCurrentSnapshot(SGPLFGLView * view)
     return view.snapshot;
 }
 
-void SGPLFGLViewPrepareOpenGL(SGPLFGLView * view)
-{
-    SGPLFGLContext * context = SGPLFGLViewGetContext(view);
-    SGPLGLContextSetCurrentContext(context);
-}
-
 void SGPLFGLViewFlushBuffer(SGPLFGLView * view)
 {
-    if (view.enableSetNeedsDisplay) {
-        [view setNeedsDisplay];
-    } else {
-        [view display];
-    }
+    
 }
 
 
 #endif
+
