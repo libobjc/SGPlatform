@@ -39,5 +39,7 @@ void SGPLFGLViewDisplay(SGPLFGLView * view);
 void SGPLFGLViewSetDrawDelegate(SGPLFGLView * view, id <SGPLFGLViewDelegate> drawDelegate);
 void SGPLFGLViewSetContext(SGPLFGLView * view, SGPLFGLContext * context);
 SGPLFGLContext * SGPLFGLViewGetContext(SGPLFGLView * view);
+void SGPLFGLViewPrepareOpenGL(SGPLFGLView * view);
+void SGPLFGLViewFlushBuffer(SGPLFGLView * view);
 void SGPLFGLViewBindFrameBuffer(SGPLFGLView * view);
 SGPLFImage * SGPLFGLViewGetCurrentSnapshot(SGPLFGLView * view);
