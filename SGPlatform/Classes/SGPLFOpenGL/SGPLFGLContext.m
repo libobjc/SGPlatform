@@ -16,7 +16,7 @@ NSOpenGLPixelFormat * SGPLFGLContextGetPixelFormat(SGPLFGLContext * context)
     return context.pixelFormat;
 }
 
-SGPLFGLContext * SGPLFGLContextAllocInit()
+SGPLFGLContext * SGPLFGLContextAllocInit(void)
 {
     NSOpenGLPixelFormatAttribute pixelFormatAttributes[] = {
         NSOpenGLPFADoubleBuffer,
@@ -41,7 +41,7 @@ void SGPLGLContextSetCurrentContext(SGPLFGLContext * context)
 #elif SGPLATFORM_TARGET_OS_IPHONE_OR_TV
 
 
-SGPLFGLContext * SGPLFGLContextAllocInit()
+SGPLFGLContext * SGPLFGLContextAllocInit(void)
 {
     return [[SGPLFGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
 }
